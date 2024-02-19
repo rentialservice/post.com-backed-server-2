@@ -1,5 +1,4 @@
 import { Comment, Tweet, User } from '../../sequelize.js';
-import upload from '../upload.js';
 import { putImage,deleteImage } from "../../utils/s3.js";
 import { imageCategory,getImageName } from "../../utils/common.js"
 
