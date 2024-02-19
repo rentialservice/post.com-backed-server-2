@@ -5,7 +5,6 @@ import {
   extractHashtags,
   extractTaggedUsers,
 } from "../../utils/validation.js";
-import upload from "../upload.js";
 import { putImage, deleteImage } from "../../utils/s3.js";
 import { imageCategory, getImageName } from "../../utils/common.js";
 
